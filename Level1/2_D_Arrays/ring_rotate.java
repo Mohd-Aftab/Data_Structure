@@ -14,7 +14,7 @@ public class ring_rotate {
             }
         }
         int s = scn.nextInt();
-        int k = scn.nextInt();
+        int k = scn.nextInt();  
         int one[] = oneDExtract(arr, n, m, s);
         rotate(one, k);
         
