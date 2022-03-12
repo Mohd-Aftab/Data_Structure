@@ -13,7 +13,7 @@ public class cycle_in_LL {
     }
 
     public static boolean isCyclePresentInLL(ListNode head) {
-        if(head == null || head.next == null){
+        if(head == null || head.next == null){ 
             return false;
         }
         ListNode slow = head;
